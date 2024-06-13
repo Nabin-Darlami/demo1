@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometComposerLinksPluginForLexicalDeferred.react",["createComposerDeferredPlugin","react","requireDeferred"],(function(a,b,c,d,e,f,g){"use strict";var h;h||d("react");a=c("createComposerDeferredPlugin")(c("requireDeferred")("CometComposerLinksPluginForLexical.react").__setRef("CometComposerLinksPluginForLexicalDeferred.react"));g["default"]=a}),98);
+__d("composerPostCollaboratorTransform",[],(function(a,b,c,d,e,f){"use strict";function a(a,b,c){var d=a.collaboratorInvitee;if(d!=null){var e;e=((e=a.mediaAttachments)==null?void 0:e.length)===1&&a.mediaAttachments[0].fileType==="VIDEO";a=d.key;if(!e)return c(babelHelpers["extends"]({},b,{post_collaborators:{post_collaborators:[a]}}))}c(b)}f["default"]=a}),66);
